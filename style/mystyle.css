@@ -1,0 +1,275 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid white;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #777;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:  #ffffcc;
+}
+
+li a.active {
+    color: white;
+    background-color: green;
+}
+.active {
+    background-color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.tb1{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    background-color: red;
+    text-align: center;
+
+
+}
+
+.tb1 a{
+	text-decoration: none;
+	vertical-align: middle
+}
+
+.tb1 a:hover{
+	color: #ddd;
+
+}
+
+#Area_9{
+	overflow-y: auto;
+	position: absolute;
+	left:50px;
+	width:50%;
+	height:550px;
+	border: black solid 1px;
+		text-align: center;
+
+}
+.ct{
+    color: white;
+    overflow-y: auto;
+    position: absolute;
+    left:250px;
+    width:50%;
+    height:60px;
+    border: black solid 1px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: red;
+
+}
+.cd{
+     color: white;
+    overflow-y: auto;
+    position: absolute;
+    left:250px;
+    width:50%;
+    height:60px;
+    border: black solid 1px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: red;
+}
+.textboxcd{
+    color: black;
+    overflow-y: auto;
+    position: absolute;
+    left:250px;
+    width:50%;
+    height:90px;
+    top:138px;
+    border: black solid 1px;
+    text-align: center;
+    background-color: white;
+}
+.textbox1{
+    color: black;
+    overflow-y: auto;
+    position: absolute;
+    left:500px;
+    width:30%;
+    height:150px;
+    top:178px;
+    border: black solid 1px;
+    text-align: center;
+    background-color: white;
+}
+
+.textbox2{
+    color: black;
+    overflow-y: auto;
+    position: absolute;
+    left:500px;
+    width:30%;
+    height:150px;
+    top:355px;
+    border: black solid 1px;
+    text-align: center;
+    background-color: white;
+}
+.textbox3{
+    color: black;
+    overflow-y: auto;
+    position: absolute;
+    left:500px;
+    width:30%;
+    height:150px;
+    top:555px;
+    border: black solid 1px;
+    text-align: center;
+    background-color: white;
+}
+.cName{
+    color: black;
+    overflow-y: auto;
+    position: absolute;
+    left:250px;
+    width:50%;
+    height:50px;
+    top:120px;
+    border: black solid 1px;
+    text-align: left;
+    text-decoration: underline;
+    font-style: italic; 
+    background-color: white;
+}
+.cName2{
+    color: black;
+    overflow-y: auto;
+    position: absolute;
+    left:250px;
+    width:50%;
+    height:50px;
+    top:300px;
+    border: black solid 1px;
+    text-align: left;
+    text-decoration: underline;
+    font-style: italic; 
+    background-color: white;
+
+}
+.cName3{
+    color: black;
+    overflow-y: auto;
+    position: absolute;
+    left:250px;
+    width:50%;
+    height:50px;
+    top:500px;
+    border: black solid 1px;
+    text-align: left;
+    text-decoration: underline;
+    font-style: italic; 
+    background-color: white;
+}
+#anderaPhoto
+{
+    position: absolute;
+    height: 150px;
+    width: 250px;
+    top: 195px;
+    left: 250px;
+}
+#DanielPhoto
+{
+    position: absolute;
+    height: 150px;
+    width: 250px;
+    top: 372px;
+    left: 250px; 
+}
+#tobyPhoto
+{
+    position: absolute;
+    height: 150px;
+    width: 250px;
+    top: 572px;
+    left: 250px;
+}
+.shirtTitle
+{
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+.priceShirt
+{
+    position: absolute;
+    left: 153px;
+    top: 150px;
+}
+#shirt
+{
+    position: absolute;
+    left: 150px;
+    top: 260px;
+}
+
+.trouserTitle
+{
+    position: absolute;
+    left: 435px;
+    top: 100px;
+}
+
+
+
+.priceTrouser
+{
+    position: absolute;
+    left:   448px;
+    top: 150px;
+
+}
+
+#trouser{
+    position: absolute;
+    left: 448px;
+    top: 260px;
+}
+
+.shoeTitle
+{
+    position: absolute;
+    left: 745px;
+    top: 100px;
+}
+.priceShoe
+{
+    position: absolute;
+    left: 740px;
+    top: 150px;
+}
+
+#shoes
+{
+    position: absolute;
+    left: 740px;
+    top: 260px;
+}
+
+
